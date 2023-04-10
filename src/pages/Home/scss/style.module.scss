@@ -1,16 +1,17 @@
 .artigo{
     display: flex;
     flex-wrap: wrap;
+    position: relative;
+    top: 50px;
     .section{
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        justify-content: space-evenly;
+        align-items: end;
         width: 50%;
         &__imagem{
             position: relative;
             width: 100%;
-            top: 2.1em;
         }
         &_title{
             color: #fff;
@@ -20,7 +21,7 @@
         &_text{
             color: #fff;
             width: 80%;
-            margin: 8px 0;
+            margin: 10px 0;
         }
         &_link{
             background: var(--softMagenta);
@@ -33,6 +34,21 @@
         }
         &_link:hover{
             filter: brightness(85%);
+        }
+        &__div{
+            width: 90%;
+        }
+        &__social{
+            display: flex;
+            gap: 10px;
+            position: absolute;
+            bottom: -2em;
+            &__icon{
+                border: solid 2px #fff;
+                color: #fff;
+                padding: 6px;
+                border-radius: 50%;
+            }
         }
     }
     margin: 0 auto;

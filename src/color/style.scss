@@ -26,6 +26,10 @@
 body{
     background: var(--violet) url("./bg-desktop.svg");
 }
+*::selection{
+    background: var(--softMagenta) ;
+    color: #000;
+}
 @media screen and (max-width:800px) {
     body{
         background: var(--violet) url("./bg-mobile.svg")  no-repeat;
