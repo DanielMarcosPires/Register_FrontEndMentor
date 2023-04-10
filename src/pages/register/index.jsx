@@ -3,10 +3,6 @@ import style from './scss/style.module.scss'
 import { useNavigate } from 'react-router-dom'
 export default function Register() {
     const navegar = useNavigate()
-    const confirmar = (e) =>{
-        
-    }
-
     return (
         <>
              <form onSubmit={(e)=>{
