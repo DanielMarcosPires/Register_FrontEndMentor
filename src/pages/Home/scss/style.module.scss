@@ -1,12 +1,15 @@
 .artigo{
     display: flex;
+    flex-wrap: wrap;
     .section{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        width: 50%;
         &__imagem{
-            position: relative  ;
+            position: relative;
+            width: 100%;
             top: 2.1em;
         }
         &_title{
@@ -34,4 +37,16 @@
     }
     margin: 0 auto;
     width: 95%;
+}
+@media screen and (max-width:800px) {
+    .artigo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .section{
+            width: 90%;
+        }
+        padding: 2em 0;
+    }
 }

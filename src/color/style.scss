@@ -26,3 +26,10 @@
 body{
     background: var(--violet) url("./bg-desktop.svg");
 }
+@media screen and (max-width:800px) {
+    body{
+        background: var(--violet) url("./bg-mobile.svg")  no-repeat;
+        background-position: top;
+        background-size: contain;
+    }   
+}

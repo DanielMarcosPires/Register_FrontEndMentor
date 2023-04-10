@@ -6,7 +6,7 @@ export default function RegisterEnviado() {
   return (
     <div className='centro'>
         <GiConfirmed size={80} />
-        <h2>Enviado!</h2>
+        <h2>Cadastrado!</h2>
     </div>
   )
 }
