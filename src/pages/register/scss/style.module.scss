@@ -1,0 +1,38 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    &__border{
+        display: flex;
+        flex-direction: column;
+        label{
+            font-size: 20px;
+        }
+        input{
+            padding: 6px;
+            font-size: 20px;
+            border: none;
+            outline: none;
+            border-radius: 8px;
+        }
+    }
+    .form__button{
+        padding: 8px 1.3em;
+        font-size: 20px;
+        border: none;
+        outline: none;
+        background: var(--softMagenta);
+        border-radius: 10px;
+        margin: 8px 0;
+        transition: 0.2s;
+    }
+    .form__button:hover{
+        color: #fff;
+        filter: brightness(80%);
+    }
+    height: 70vh;
+    width: 100vw;
+}

@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;500&display=swap');
+:root{
+    --violet:hsl(257, 40%, 49%);
+    --softMagenta:hsl(300, 69%, 71%);
+    // Heading
+    --Poppins:'Poppins', sans-serif;
+
+    //Body
+    --openSans:'Open Sans', sans-serif;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--Poppins);
+}
+.centro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #0f0;
+    height: 75vh;
+}
+body{
+    background: var(--violet) url("./bg-desktop.svg");
+}

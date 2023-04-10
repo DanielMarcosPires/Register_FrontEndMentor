@@ -1,0 +1,37 @@
+.artigo{
+    display: flex;
+    .section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        &__imagem{
+            position: relative  ;
+            top: 2.1em;
+        }
+        &_title{
+            color: #fff;
+            width: 80%;
+            font-size: 40px;
+        }
+        &_text{
+            color: #fff;
+            width: 80%;
+            margin: 8px 0;
+        }
+        &_link{
+            background: var(--softMagenta);
+            border-radius: 18px;
+            color: #fff;
+            text-decoration: none;
+            transition: 0.5s;
+            font-size: 20px;
+            padding: 8px 1em;
+        }
+        &_link:hover{
+            filter: brightness(85%);
+        }
+    }
+    margin: 0 auto;
+    width: 95%;
+}
